@@ -1,4 +1,5 @@
-package com.binarytree.controllers;
+package com.binarytree.handles;
+
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

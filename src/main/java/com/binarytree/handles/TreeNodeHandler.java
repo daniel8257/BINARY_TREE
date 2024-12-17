@@ -1,4 +1,5 @@
-package com.binarytree.controllers;
+package com.binarytree.handles;
+
 
 import com.binarytree.models.TreeNode;
 import com.binarytree.services.TreeNodeService;
@@ -12,12 +13,12 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/tree_nodes")
-public class TreeNodeController {
+public class TreeNodeHandler {
 
     private final TreeNodeService treeNodeService;
 
     @Autowired
-    public TreeNodeController(TreeNodeService treeNodeService) {
+    public TreeNodeHandler(TreeNodeService treeNodeService) {
         this.treeNodeService = treeNodeService;
     }
 

@@ -1,4 +1,5 @@
-package com.binarytree.controllers;
+package com.binarytree.handles;
+
 
 import com.binarytree.models.TreeNode;
 import com.binarytree.repositories.TreeNodeRepository;

@@ -20,24 +20,30 @@
 
         .button-grid {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 10px;
-            margin: 20px 0;
-            width: 80%;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin: 20px auto;
+            width: 60%;
         }
 
         .button-grid button {
-            padding: 10px;
+            padding: 12px 15px;
             font-size: 16px;
             cursor: pointer;
-            background-color: cornflowerblue;
+            background-color: #28a745;
             color: white;
             border: none;
-            border-radius: 5px;
+            border-radius: 8px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
         }
 
         .button-grid button:hover {
-            background-color:orange;
+            background-color: #218838;
+        }
+
+        .button-grid button:active {
+            transform: scale(0.95);
+            background-color: #1e7e34;
         }
 
         .section {
